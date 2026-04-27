@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container"> 
+
+        <aside class="sidebar">
+            <h2 class="name">Student Name</h2> <div class="sidebar-buttons">
+                <div class="nav-item"><i class='bx bxs-user-circle'></i> <span>Profile</span></div>
+                <div class="nav-item"><i class='bx bxs-book'></i> <span>Courses</span></div>
+                <div class="nav-item"><i class='bx bxs-spreadsheet'></i> <span>Grades</span></div>
+                <div class="nav-item"><i class='bx bxs-cog'></i> <span>Settings</span></div>
+            </div>
+        </aside>
+
+        <div class="main">
+
+            <!-- header -->
+            <div class="header">
+                <h1>Student Dashboard</h1>
+            </div>
+
+            <hr class="divider">
+
+            <!-- 1st row -->
+            <section class="stats-box">
+                <div class="stat">
+                    <span class="icon"><i class='bx bxs-graduation'></i></span>
+                    <h3>6</h3>
+                    <p>Courses</p>
+                </div>
+                <div class="stat">
+                    <span class="icon"><i class='bx bxs-calendar-check'></i></span>
+                    <h3>60%</h3>
+                    <p>Attendance</p>
+                </div>
+                <div class="stat">
+                    <span class="icon"><i class='bx bxs-bar-chart-alt-2'></i></span>
+                    <h3>89%</h3>
+                    <p>Average Grade</p>
+                </div>
+                <div class="stat">
+                    <span class="icon"><i class="bx bx-task"></i></span>
+                    <h3>4</h3>
+                    <p>Tasks</p> 
+                </div>
+            </section>
+
+
+            <!-- 2nd row -->
+            <section class="middle-box">
+                <div class="tracker">
+                    <div class="track-item">
+                        <h3>13</h3>
+                        <p>Completed Tasks</p>
+                    </div>
+                    
+                    <hr class="divider-vertical">
+
+                    <div class="track-item">
+                        <h3>4</h3>               
+                        <p>Incomplete Tasks</p>
+                    </div>
+
+                    <hr class="divider-vertical">
+
+                    <div class="track-item">
+                        <h3>3</h3>
+                        <p>Late Tasks</p>
+                    </div>
+                </div>
+
+                <div class="class-reminder">
+                    <h5>Upcoming Class</h5>
+                    <h3>Web System and Technologies</h3>
+                    <p>11:00 AM - 3:00 PM <span class="Room">Room 1007</span></p>
+                </div>
+            </section>
+
+
+            <!-- 3rd row -->
+            <section class="third-row">
+                <div class="reminders">
+                    <h4>Reminders</h4>
+                    <div class="box"></div>
+                </div>
+                <div class="notes">
+                    <h4>Notes</h4>
+                    <div class="box"></div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+</html>
